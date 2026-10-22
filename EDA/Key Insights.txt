@@ -1,0 +1,32 @@
+## Key Insights
+
+Based on the exploratory data analysis of the Olist E-commerce dataset, the following insights were identified:
+
+1. Order Volume: The dataset contains 99,441 orders, with 96,478 orders marked as delivered, representing approximately 97.02% of all order records.
+
+2. Order Patterns: Monday recorded the highest order volume with 16,196 orders, while Saturday recorded the lowest with 10,887 orders.
+
+3. Data Quality: No exact duplicate rows or duplicate order IDs were identified. However, missing timestamps require attention before further analysis.
+
+4. Delivery Data: A total of 2,965 orders have missing customer delivery dates. Eight of these orders are marked as delivered, indicating a need for further investigation.
+
+5. Monthly Trends: Monthly order analysis provides a way to identify changes in demand and potential seasonal shopping patterns.
+
+6. Delivery Performance: Comparing actual and estimated delivery times helps evaluate delivery efficiency and identify potential delays.
+
+### Business Recommendations
+
+- Investigate missing delivery timestamps and improve order tracking.
+- Use monthly and weekday order trends for operational planning.
+- Monitor cancellations and unavailable orders.
+- Extend the analysis to payments, products, customers, sellers, and reviews to generate additional business insights.
+
+### Data Visualizations
+
+1. Number of Orders by Status: Visualizes the distribution of orders across different statuses and highlights overall order fulfillment patterns.
+
+2. Monthly Order Trends: Shows monthly changes in order volume to help identify demand patterns and potential seasonal trends.
+
+3. Orders by Day of the Week: Compares daily order volumes and identifies Monday as the busiest day and Saturday as the least busy day in the dataset.
+
+4. Actual vs. Estimated Delivery Time: Compares actual delivery durations with estimated delivery durations to evaluate delivery performance and identify potential delays.
